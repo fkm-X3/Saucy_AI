@@ -1,0 +1,8 @@
+[package]
+name = "sauce_ai"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = { version = "0.21.0", features = ["ndarray", "train", "autodiff"] }
+serde = { version = "1.0.229", features = ["derive"] }
